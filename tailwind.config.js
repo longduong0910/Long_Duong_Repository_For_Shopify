@@ -6,6 +6,9 @@ module.exports = {
     './templates/**/*.liquid',
     './sections/**/*.liquid',
   ],
+  options: {
+    safelist: ['space-x-10']
+  },
   theme: {
     extend: {},
   },
