@@ -10,7 +10,11 @@ module.exports = {
     safelist: ['space-x-10']
   },
   theme: {
-    extend: {},
+    extend: { 
+      height: {
+        '94': '22rem'
+      }
+    },
   },
   plugins: [],
 }
