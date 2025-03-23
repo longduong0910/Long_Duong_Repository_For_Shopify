@@ -1,0 +1,81 @@
+extends: theme-check:all
+
+ignore:
+  - node_modules/**
+
+# ⚡ Tối ưu hiệu suất
+AssetPreload:
+  enabled: true
+  severity: 1
+DeprecateBgsizes:
+  enabled: true
+  severity: 1
+DeprecateLazysizes:
+  enabled: true
+  severity: 1
+ParserBlockingScript:
+  enabled: true
+  severity: 1
+RemoteAsset:
+  enabled: true
+  severity: 1
+
+# ✅ Đảm bảo code đúng chuẩn
+JSONSyntaxError:
+  enabled: true
+  severity: 1
+ValidJSON:
+  enabled: true
+  severity: 1
+LiquidHTMLSyntaxError:
+  enabled: true
+  severity: 1
+UndefinedObject:
+  enabled: true
+  severity: 1
+UnclosedHTMLElement:
+  enabled: true
+  severity: 1
+ValidSchema:
+  enabled: true
+  severity: 1
+UniqueStaticBlockId:
+  enabled: true
+  severity: 1
+ValidBlockTarget:
+  enabled: true
+  severity: 1
+
+# 📈 SEO & Accessibility
+ImgWidthAndHeight:
+  enabled: true
+  severity: 1
+MatchingTranslations:
+  enabled: true
+  severity: 1
+ValidHTMLTranslation:
+  enabled: true
+  severity: 1
+
+# 🏗 Cấu trúc theme
+MissingAsset:
+  enabled: true
+  severity: 1
+MissingTemplate:
+  enabled: true
+  severity: 1
+SchemaPresetsBlockOrder:
+  enabled: true
+  severity: 1
+
+# 📌 Code sạch & Best Practices
+VariableName:
+  enabled: true
+  severity: 1
+  format: snake_case
+UnusedAssign:
+  enabled: true
+  severity: 1
+SchemaPresetsStaticBlocks:
+  enabled: true
+  severity: 1
